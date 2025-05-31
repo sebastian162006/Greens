@@ -91,7 +91,7 @@
 
                         <!-- Nombre 2 -->
                         <div class="col-sm-6">
-                            <label for="nombre2" class="form-label">Segundo Nombre</label>
+                            <label for="nombre2" class="form-label">*Segundo Nombre</label>
                             <input type="text" class="form-control" id="nombre2" name="nombre2"
                                 placeholder="Segundo nombre (opcional)" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]*">
                             <div class="valid-feedback">
