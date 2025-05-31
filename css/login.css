@@ -1,0 +1,60 @@
+/* Fondo con degradado */
+body {
+    background: linear-gradient(135deg, #006400, #ffffff);
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centrar el formulario */
+.form-signin {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    max-width: 400px;
+}
+
+/* Título */
+h1 {
+    color: #00ff88;
+}
+
+/* Inputs */
+.form-control {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #00ff88;
+}
+
+.form-control:focus {
+    border-color: #008000;
+    box-shadow: 0 0 5px #00ff88;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #008000;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #00b56a;
+}
+
+/* Enlace de registro */
+a button {
+    margin-top: 10px;
+    background-color: #004d26;
+    color: white;
+    border: none;
+}
+
+a button:hover {
+    background-color: #00b56a;
+    color: black;
+}
+
+/* Texto inferior */
+.text-muted {
+    color: #cccccc !important;
+}
